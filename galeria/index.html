@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fotos | Visita</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>VISITA TÉCNICA - IFRO</h1>
+        <p class="campus">Campus Colorado do Oeste</p>
+    </header>
+
+    <div class="relatorio">
+        <p> &emsp;&emsp;&emsp;No dia 9 de agosto, os estudantes matriculados no curso de Ciência da Computação do IFRO Campus Vilhena tiveram a oportunidade de visitar o IFRO Campus Colorado do Oeste. O objetivo desta visita foi fomentar a interação entre os estudantes de Ciência da Computação e um ambiente voltado para a agricultura, explorando a aplicação da tecnologia nesse contexto. Ao chegarmos ao campus, fomos calorosamente recebidos e apresentados às atividades planejadas para o dia.
+            <br>&emsp;&emsp;&emsp;Entre os principais destaques da visita estava a nossa participação em um workshop de fotografia e a nossa introdução ao projeto Câmera Escura, ambos com o objetivo de conectar a tecnologia com o tema central da agricultura. No workshop de fotografia, não apenas aprendemos sobre os aspectos técnicos da fotografia, mas também exploramos como a tecnologia digital transformou essa forma de arte. Aprofundamos o potencial da fotografia como meio de expressão e comunicação, ao mesmo tempo em que examinamos a evolução do conceito de uma fotografia ao longo do tempo, desde as tradicionais câmeras de filme até as mais recentes câmeras digitais e softwares de edição.
+          <br>&emsp;&emsp;&emsp;Nossas discussões chamaram a atenção para os desafios associados à busca de conteúdo de alta qualidade online, especialmente em termos de consumo de conteúdo na era digital. Discutimos a importância do pensamento crítico ao navegar pelo vasto oceano de informações na internet, enfatizando a necessidade de verificar fontes e avaliar a confiabilidade do conteúdo que encontramos. Em resposta a essa questão, aprendemos sobre a criação de um canal de vídeo dedicado a fornecer conteúdo valioso para a comunidade, abrangendo diversos tópicos para auxiliar os membros da comunidade a compreenderem assuntos específicos. O papel da tecnologia na criação e disseminação de conteúdo ficou evidente enquanto exploramos diferentes formatos multimídia, incluindo vídeos e podcasts, que permitem uma partilha de conhecimento mais envolvente e acessível.
+            <br>&emsp;&emsp;&emsp;Além dessas experiências, tivemos a oportunidade de ver sobre os setores de criação animal e produção agrícola no campus. Essa imersão nos permitiu compreender a intrincada relação entre a tecnologia e a agricultura. Em resumo, nossa visita ao IFRO Campus Colorado do Oeste foi esclarecedora e nos proporcionou uma visão clara de como a tecnologia pode ser integrada de forma eficaz em diversos ambientes. As atividades e discussões aprofundaram nossa compreensão do potencial que a tecnologia possui e como ela pode ser utilizada para promover a disseminação do conhecimento, aprimorar o bem-estar da comunidade e abordar questões globais prementes, como a segurança alimentar. Nossa experiência destacou a importância de preparar futuros cientistas da computação para aproveitar o poder da tecnologia para o bem maior da sociedade.
+        </p>
+
+      
+    </div>
+
+    <div class="galeria">
+        <img class="miniatura" src="img/img1.jpeg" width="200" alt="1"
+            onclick="openModal('img/img1.jpeg')">
+
+        <img class="miniatura" src="img/img2.jpeg" width="200" alt="2" 
+        onclick="openModal('img/img2.jpeg')">
+
+        <img class="miniatura" src="img/img3.jpeg" width="200" alt="3"
+            onclick="openModal('img/img3.jpeg')">
+
+        <img class="miniatura" src="img/img4.jpeg" width="200" alt="4"
+            onclick="openModal('img/img4.jpeg')">
+
+        <img class="miniatura" src="img/img5.jpeg" width="200" alt="5"
+            onclick="openModal('img/img5.jpeg')">
+
+        <img class="miniatura" src="img/img6.jpeg" width="200" alt="6"
+            onclick="openModal('img/img6.jpeg')">
+
+        <img class="miniatura" src="img/img7.jpeg" width="200" alt="7"
+            onclick="openModal('img/img7.jpeg')">
+
+        <img class="miniatura" src="img/img8.jpeg" width="200" alt="8"
+            onclick="openModal('img/img8.jpeg')">
+
+        <img class="miniatura" src="img/img9.jpeg" width="200" alt="9"
+            onclick="openModal('img/img9.jpeg')">
+            
+        <img class="miniatura" src="img/img10.jpeg" width="200" alt="10"
+            onclick="openModal('img/img10.jpeg')">
+        
+    </div>
+
+
+    <div class="gallery-controls">
+        <button class="bt" id="prev-button"></button>
+        <button class="bt" id="next-button"></button>
+    </div>
+</div>
+
+<div class="modal" id="modal" onclick="closeModal()">
+    <div class="modal-content">
+        <span class="modal-close" onclick="closeModal()">&times;</span>
+        <img class="modal-image" id="modalImage" alt="Imagem da galeria">
+    </div>
+</div>
+  
+    <footer>
+        &copy; 2023 Tartas| Todos os direitos reservados
+      </footer>
+
+    <script src="java.js"></script>
+</body>
